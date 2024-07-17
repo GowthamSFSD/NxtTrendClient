@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState,  } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import {  useParams } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import { InfinitySpin } from 'react-loader-spinner';
 import { BsPlusSquare, BsDashSquare } from 'react-icons/bs';
