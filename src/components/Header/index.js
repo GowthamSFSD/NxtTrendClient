@@ -1,6 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
-import CartContext from '../../context/CartContext';
 import './index.css';
 import { selectAllCart } from '../../slice/cartSlice';
 import { useSelector } from 'react-redux';

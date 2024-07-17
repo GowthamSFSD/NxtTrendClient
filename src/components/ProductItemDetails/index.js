@@ -26,7 +26,6 @@ const ProductItemDetails = () => {
   const [quantity, setQuantity] = useState(1);
   const { id } = useParams();
   const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   useEffect(() => {
     getProductData();

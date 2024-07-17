@@ -1,16 +1,11 @@
-import React, {  useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import Header from "../Header";
 import CartListView from "../CartListView";
-import Cookies from "js-cookie";
 import EmptyCartView from "../EmptyCartView";
 import { useSelector } from "react-redux";
 import { selectAllCart } from "../../slice/cartSlice";
 
 const Cart = () => {
-  const navigate = useNavigate();
-  
-
 const cartList = useSelector(selectAllCart)
 
   // useEffect(() => {
